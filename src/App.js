@@ -634,6 +634,14 @@ function YandexMapEmbed() {
   const handleOpenFullMap = () => {
     window.open(YANDEX_FULL_MAP_URL, '_blank', 'noopener,noreferrer');
   };
+  /* --- ЯНДЕКС КАРТА ----------------------------------------------------------- */
+const COORDINATES = {
+  lon: 40.105852,
+  lat: 44.606683
+};
+
+const YANDEX_WIDGET_SRC = `https://yandex.ru/map-widget/v1/?ll=${COORDINATES.lon},${COORDINATES.lat}&z=15&pt=${COORDINATES.lon},${COORDINATES.lat},pm2rdm`;
+const YANDEX_FULL_MAP_URL = `https://yandex.ru/maps/?pt=${COORDINATES.lon},${COORDINATES.lat}&z=15&l=map`;
 
   return (
     <div className="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/80 shadow-[0_18px_50px_rgba(15,23,42,0.9)]">
