@@ -529,7 +529,7 @@ const WeddingHousesLanding = () => {
                 </button>
                 <button
                   type="button"
-                  onClick={() => window.open("https://t.me/@proxyesssss", "_blank")}
+                  onClick={() => window.open("https://t.me/proxyesssss", "_blank")}
                   className="rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-slate-100"
                 >
                   Написать в Telegram
