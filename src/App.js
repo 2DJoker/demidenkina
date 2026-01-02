@@ -139,7 +139,7 @@ const staggerContainer = {
 };
 
 /* --- WHATSAPP --------------------------------------------------------------- */
-const WHATSAPP_PHONE = "79990000000";
+const WHATSAPP_PHONE = "+79166680468";
 
 /* --- ЯНДЕКС КАРТА ----------------------------------------------------------- */
 const COORDINATES = {
@@ -243,7 +243,7 @@ const WeddingHousesLanding = () => {
             onClick={scrollToForm}
             className="rounded-full border border-emerald-500/80 bg-emerald-500/90 px-5 py-2 text-sm font-medium text-slate-950 shadow-lg shadow-emerald-500/40 transition hover:-translate-y-0.5 hover:bg-emerald-400"
           >
-            Выбрать вариант
+            Забронировать
           </button>
         </div>
       </header>
@@ -529,7 +529,7 @@ const WeddingHousesLanding = () => {
                 </button>
                 <button
                   type="button"
-                  onClick={() => window.open("https://t.me/yourusername", "_blank")}
+                  onClick={() => window.open("https://t.me/@proxyesssss", "_blank")}
                   className="rounded-full border border-white/20 bg-white/5 px-5 py-2.5 text-sm font-medium text-slate-100"
                 >
                   Написать в Telegram
